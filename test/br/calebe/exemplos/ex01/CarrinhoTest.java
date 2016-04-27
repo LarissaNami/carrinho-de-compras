@@ -32,6 +32,7 @@ public class CarrinhoTest {
         menor = carrinho.menorProduto();
         assertEquals(livro, menor);
     }
+    
 
     @Test
     public void colocandoMaisProdutos() throws CarrinhoVazioExpected {
