@@ -31,7 +31,7 @@ public class ProdutoTest {
     }
     
     @Test
-    public void criandoProdutoTest(){
+    public void verificaProdutoTest(){
         Produto novoProduto = new Produto("halls", 1.00);
         assertEquals("halls", novoProduto.equals(produto));
         
