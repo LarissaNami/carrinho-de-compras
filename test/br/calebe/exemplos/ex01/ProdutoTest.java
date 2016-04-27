@@ -30,11 +30,11 @@ public class ProdutoTest {
         assertEquals(15.00, preco.getPreco(), 0);
     }
     
-//    @Test
-//    public void criandoProdutoTest(){
-//        Produto novoProduto = new Produto("halls", 1.00);
-//        assertEquals("halls", novoProduto.equals(produto));
-//        
-//    }
+    @Test
+    public void criandoProdutoTest(){
+        Produto novoProduto = new Produto("halls", 1.00);
+        assertEquals("halls", novoProduto.equals(produto));
+        
+    }
     
 }
